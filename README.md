@@ -1,0 +1,2 @@
+# AltSchoolAfrica
+AltSchool Projects
