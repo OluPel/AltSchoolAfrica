@@ -1,0 +1,377 @@
+header{
+ /* display: flex; */
+ justify-content: space-between;
+ height: 25px;
+ width: auto;
+ padding: 16px;
+
+}
+
+.Navigation{
+ background-color: black;
+ overflow: hidden;
+ position: relative;
+ padding: 30px;
+ border: 5px; 
+ font-weight: bold;
+ 
+}
+.Navigation a {
+ float:right;
+ /* position: absolute; */
+ color: white;
+ text-align: center;
+ padding:  10px;
+ text-decoration: none;
+}
+
+.Navigation a:hover{
+
+background-color: darkgray;
+
+}
+
+.Navigation a.active{
+ color: white;
+ border-bottom: 4px solid darkgrey;
+ /* background-color: darkgrey; */
+}
+
+
+
+
+
+img{
+ 
+ height: 50%;
+ width: 50%;
+ border-radius: 100%;
+ max-width: 100%;
+
+}
+.Main{
+ padding-top: 15px;
+}
+.HeadShot {
+ margin-top: 20px;
+ padding-top: 10px;
+ /* display: block; */
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;
+ height: 30%;
+ /*background-color: darkgrey; */
+}
+
+.AboutMe{
+ line-height: 1.5;
+ display: flex;
+ padding: auto;
+ /* margin-left: 50px; */
+ margin: 10px,10px,10px,10px;
+ 
+}
+.AboutMe1{
+ border-radius: 0%;
+ height: 20%;
+ width: 25%;
+ max-width: 100%; 
+ background-color: darkgrey;
+ color: white;
+ text-align: center;
+size: 10%;
+
+}
+.AboutMeText{
+ /* text-align: justify; */
+ text-align: start;
+ size: 100%;
+ padding-left: 2%;
+ padding-bottom: 5%;
+
+}
+
+.Goals{
+ line-height: 1.5;
+ display: flex;
+ padding: auto;
+ /* margin-left: 50px; */
+ margin: 10px,10px,10px,10px;
+ 
+}
+.MyGoals{
+ border-radius: 0%;
+ height: 20%;
+ width: 25%;
+ max-width: 100%; 
+ background-color: darkgrey;
+ color: white;
+ text-align: center;
+size: 10%;
+
+}
+.GoalText{
+ /* text-align: justify; */
+ text-align: start;
+ size: 100%;
+ padding-left: 2%;
+ padding-bottom: 5%;
+
+}
+.Educations{
+ line-height: 1.5;
+ display: flex;
+ padding: auto;
+ /* margin-left: 50px; */
+ margin: 10px,10px,10px,10px;
+ 
+}
+
+.Education1{
+ border-radius: 0%;
+ height: 50%;
+ width: 50%;
+ max-width: 100%; 
+ background-color: darkgrey;
+ color: white;
+ text-align: center;
+size: 10%;
+
+}
+.education{
+ /* text-align: justify; */
+ text-align: start;
+ size: 100%;
+ padding-left: 2%;
+ padding-bottom: 5%;
+
+}
+
+.JobExperience{
+ line-height: 1.5;
+ display: flex;
+ padding: auto;
+  /* margin-left: 50px;  */
+ margin: 10px,10px,10px,10px;
+ 
+}
+
+.Experience{
+ border-radius: 0%;
+ height: 50%;
+ width: 50%;
+ max-width: 100%; 
+ background-color: darkgrey;
+ color: white;
+ text-align: center;
+size: 10%;
+
+}
+.experience{
+ /* text-align: justify; */
+ text-align: start;
+ size: 100%;
+ padding-left: 2%;
+ padding-bottom: 5%;
+
+}
+
+
+
+.Hobbies{
+ line-height: 1.5;
+ display: flex;
+ padding: auto;
+ /* margin-left: 50px; */
+ margin: 10px,10px,10px,10px;
+ 
+}
+.Skills{
+ border-radius: 0%;
+ height: 20%;
+ width: 70%;
+ max-width: 100%; 
+ background-color: darkgrey;
+ color: white;
+ text-align: center;
+size: 10%;
+
+}
+.HobbiesSkills{
+ /* text-align: justify; */
+ text-align: start;
+ size: 100%;
+ padding-left: 2%;
+ padding-bottom: 5%;
+}
+ ul.Hobby{
+  display: inline;
+list-style-type: none;
+ }
+
+ ul.skill{
+ list-style-type: none;
+ }
+
+
+h1{
+ font-size: 45px;
+ font-family: Comic sans-serif, 'Times New Roman', Times, serif;
+}
+h4{
+ font-size: 25px;
+}
+
+
+p{
+ line-height: 2;
+ font-size: 20px;
+}
+
+/* .form{
+ width: 95%;
+ max-width: 400px;
+ margin: 32px auto;
+} */
+
+.Form {
+ margin-bottom: 8px;
+}
+
+.Form label {
+ font-weight: bold;
+ margin-bottom: 8px;
+ color: black;
+ display: block;
+}
+
+.Form input,textarea {
+ display: block;
+ font: inherit;
+ width: 50%;
+ border-radius: 4px;
+ border: 1px solid darkgrey;
+ padding: 4px;
+ background-color: whitesmoke;
+}
+
+.action {
+ margin-top: 24px;
+}
+
+.action button {
+ font: inherit;
+ cursor: pointer;
+ padding: 8px 24px;
+ border-radius: 4px;
+ background-color: darkgray;
+ color: white;
+ border: 1px solid black;
+}
+
+.action button:hover {
+ background-color: rgb(194, 183, 183);
+ border-color: black;
+}
+
+
+body {
+ font-family:sans-serif, 'Lato', 'comics';
+ margin: 0;
+ text-align: center;
+ color: black;
+}
+
+.priority{
+ border-radius: 4px;
+ padding: 8px 24px;
+}
+
+@media screen and (max-width: 600px) {
+ nav{
+   float: none;
+ }
+
+ nav a {
+   float: none;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ nav a:hover{
+   background-color: darkgrey;
+   
+ }
+ .NavLinks{
+   display: block;
+   text-align: center;
+ }
+}
+
+
+
+footer{
+  
+  padding: 10px 10px;
+/*   width: 100%; */
+background-color: black;
+  color: white;
+}
+
+.footer-link{
+  text-decoration: none;
+  margin: 20px ;
+  color: white;
+}
+
+
+
+.Calculator{
+  background-color:black;
+  background-size: auto;
+  margin: 10px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5%;
+  
+ 
+ }
+ 
+ .Outputdisplay{
+  background-color: white;
+  /* box-sizing: content-box; */
+  size: 50px;
+  border-color: black;
+  border-radius: 1%;
+ 
+ }
+ 
+ 
+ .Calculator input{
+  padding: 5px;
+ margin: 10px;
+  width: 90%;
+  
+
+ }
+ 
+ .Digits td input{
+  align-content: space-between;
+  border-radius: 50%;
+  border-color: black;
+  padding: 5px;
+  width: 60px;
+
+ }
+
+ .Digits td input:hover{
+  background-color: darkgrey;
+  
+ 
+ }
+ 
+ 
+ .CalcBody{
+  align-items: center;
+ }
+
